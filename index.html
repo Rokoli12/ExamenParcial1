@@ -2,16 +2,55 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Contingencia TESE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contingencia TESE - Cloud Ready</title>
     <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f4f4f4; }
-        .container { text-align: center; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { color: #003366; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4; /* Fondo gris muy claro */
+        }
+        .card {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            border-top: 8px solid #cc0000; /* Franja roja institucional */
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .status-badge {
+            display: inline-block;
+            background-color: #cc0000;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Sistema de Inscripciones TESE - Próximamente en la Nube</h1>
+    <div class="card">
+        <h1>Sistema de Inscripciones TESE</h1>
+        <p>Próximamente en la Nube</p>
+        <div class="status-badge">Mantenimiento por Migración</div>
     </div>
 </body>
 </html>
